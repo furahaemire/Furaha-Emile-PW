@@ -14,7 +14,7 @@ function App() {
             FURAHA EMILE
           </h1>
           <p className="mb-4 mt-6 text-xl font-light leading-relaxed">
-            Frontend-Developer....
+            Frontend-Developer
           </p>
         </div>
       </div>
