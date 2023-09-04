@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Navbar from './pages/Navbar';
+import Navbar from './include/Navbar';
 
 
 
@@ -8,19 +8,18 @@ function App() {
   return (
     <div>
       <Navbar />
-  
-
-      
       <div class="right">
         <div class="home">
-        <h1>FURAHA EMILE</h1>
-        <h4>Frontend-Developer</h4>
+          <h1 class="mb-2 mt-0 text-5xl font-medium leading-tight text-primary">
+            FURAHA EMILE
+          </h1>
+          <p className="mb-4 mt-6 text-xl font-light leading-relaxed">
+            Frontend-Developer
+          </p>
         </div>
-            
-           </div>
-
+      </div>
     </div>
-  
+
   )
 }
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../include/Navbar'
 
-function About() {
+function Resume() {
   return (
     <div>
       <Navbar />
       <div class="row">
         <div class="right">    
-            <h1>ABOUT ME</h1>      
+            <h1>Resume</h1>      
         </div>
       </div>
     </div>
@@ -15,4 +15,4 @@ function About() {
   )
 }
 
-export default About
+export default Resume

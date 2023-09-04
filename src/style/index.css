@@ -1,4 +1,7 @@
-
+.center{
+    margin-left: 15%;
+    text-align: center;
+}
 /* cols and side style */
 .col1 {
 
@@ -6,6 +9,7 @@
     float: left;
     text-align: center;
     bottom: 0%;
+
 }
 
 .col2 {
@@ -56,6 +60,8 @@
 
 .col1 h4 {
     margin-top: 0px;
+    margin-right: 20%;
+    font-size: 12px;
 }
 
 .col2 img {
@@ -75,7 +81,7 @@
     margin-left: 20px;
 }
 
-.col2 h2 {
+.col2 h3 {
     text-align: center;
     font-weight: bold;
 }
@@ -85,19 +91,10 @@
     font-weight: bold;
 }
 
-button {
-    text-align: center;
-    padding: 14px;
-    border-radius: 40px;
-    border-color: white;
-    border-style: ridge;
-    width: 50%;
-    color: white;
-    background-color: #00bfff;
-    margin-left: 25%;
-    margin-top: 10%;
+button:hover{
+    background-color: white;
+    color: #00bfff;
 }
-
 .footer {
     text-align: center;
     color: white;
@@ -142,6 +139,11 @@ button {
     margin-top: 20%;
 }
 
-.home h3 {
-    margin-bottom: 5px;
+.home p {
+    margin-top: 2px;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
