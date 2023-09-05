@@ -84,6 +84,7 @@ function About() {
                 </p>
               </IconContext.Provider>
           </div>
+
         </div>
 
       </div>
