@@ -1,3 +1,4 @@
+
 .center{
     margin-left: 15%;
     text-align: center;
@@ -23,14 +24,12 @@
 }
 
 .col3 {
-    background-color: green;
     width: 50%;
     float: left;
     bottom: 0%;
 }
 
 .col4 {
-    background-color: red;
     width: 50%;
     float: right;
     height: 100%;
