@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
+ 
 } from "react-router-dom";
 const router = createBrowserRouter([
     {
